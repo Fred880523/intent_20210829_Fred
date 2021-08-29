@@ -32,8 +32,7 @@
         android:id="@+id/sendMessageBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="메세지 화면에 내용 전달하기"
-
+        android:text="메세지 화면에 내용 전달하기"/>
 
 
 
