@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
             val myIntent= Intent(this, ViewMessageActivity::class.java)
 
             myIntent.putExtra("inputMessage", inputContent)
+            //String Int 각각 첨부
+            myIntent.putExtra("number", 2021)
 
             startActivity(myIntent)
 
