@@ -12,8 +12,12 @@ class OtherActivity : AppCompatActivity() {
 
         otherActivityTxt.setOnClickListener {
 
-            val otherIntent = Intent(this, MainActivity::class.java)
-            startActivity(otherIntent)
+            val myIntent = Intent(this, MainActivity::class.java)
+            startActivity(myIntent)
+
+            //지금 보고있는 화면을 종료처리
+
+            finish()
 
         }
 
